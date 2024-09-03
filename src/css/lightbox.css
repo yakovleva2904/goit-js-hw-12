@@ -1,0 +1,9 @@
+.simple-lightbox {
+    background: rgb(224, 224, 224, 0.4);
+}
+
+.sl-wrapper.simple-lightbox .sl-navigation button,
+.sl-wrapper.simple-lightbox .sl-close,
+.sl-wrapper.simple-lightbox .sl-counter {
+    color: #000000;
+}
