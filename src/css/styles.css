@@ -1,9 +1,10 @@
 
 @import url('./reset.css');
-@import url('./lightbox');
-@import url('./loader');
-@import url('./search-form');
-@import url('./gallery');
+@import url('./lightbox.css');
+@import url('./load-more.css');
+@import url('./loader.css');
+@import url('./search-form.css');
+@import url('./gallery.css');
 
 @import "izitoast/dist/css/iziToast.min.css";
 @import "simplelightbox/dist/simple-lightbox.min.css";
