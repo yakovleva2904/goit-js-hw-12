@@ -85,7 +85,7 @@ const onLoadMoreBtnClick = async event => {
 
     galleryEl.insertAdjacentHTML('beforeend', galleryCardsTemplate);
 
-    if (currentPage = Math.ceil(response.data.totalHits / 15)) {
+    if (currentPage === Math.ceil(response.data.totalHits / 15)) {
       loadMoreBtnEl.classList.add('is-hidden');
 
       iziToast.warning({
